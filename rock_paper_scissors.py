@@ -42,7 +42,7 @@ while True: # the main game loop
         print('It is a tie!')
         ties = ties + 1
     elif playerMove == 'r' and computerMove == 's':
-        print('You win!')r
+        print('You win!')
         wins = wins + 1
     elif playerMove == 'p' and computerMove == 'r':
         print('You win!')

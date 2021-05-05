@@ -15,4 +15,4 @@ def collatz(num):
     except:
         print("Input is a non-intenger")
 
-print(collatz("hello"))
+print(collatz(50))
