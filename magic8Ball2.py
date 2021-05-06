@@ -1,0 +1,1 @@
+# Lists combined with the magjic 8 Ball function can simplify the code to make it more efficient
