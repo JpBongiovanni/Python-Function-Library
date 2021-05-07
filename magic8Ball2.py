@@ -1,1 +1,7 @@
-# Lists combined with the magjic 8 Ball function can simplify the code to make it more efficient
+import random
+pets = ['Dog', 'Cat', 'Moose', 'lizard', 'mouse']
+
+random.shuffle(pets)
+
+print(pets)
+    
