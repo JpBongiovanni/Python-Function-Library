@@ -12,13 +12,13 @@
 </li>
 
 
-<div>Zig Zag</div>
+<div>Zig Zag - </div>
 <img src="https://github.com/JpBongiovanni/Python_Basics/blob/main/movies/zigzag.gif" width="530" height="350" />
 
 <div>Call Stack Function</div>
 <img src="https://github.com/JpBongiovanni/Python_Basics/blob/main/movies/abcdCallStack.gif" width="530" height="350" />
 
-<div>Collatz Sequence</div>
+<div>Collatz Sequence - The Collatz function takes one integer. If the integer is even then it is divided by 2, if it is odd, it is multiplied by 3 and adds 1. No one is sure why, but whatever integer is given the final result is always one.</div>
 <img src="https://github.com/JpBongiovanni/Python_Basics/blob/main/movies/collatz.gif" width="530" height="350" />
 
 <div>Guess the Number</div>
