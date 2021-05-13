@@ -7,7 +7,7 @@
   <ul><a href="#callstack">Call Stack Funciton</a></ul>
   <ul><a href="#collatz">Collatz</ul>
   <ul><a href="#guessnum">Guess the Number</a></ul>
-  <ul><a href="#m8">The Magjic 8 Ball</a></ul>
+  <ul><a href="#m8">The Magic 8 Ball</a></ul>
   <ul><a href="#rps">Rock Paper Scissors</a></ul>
 
 
