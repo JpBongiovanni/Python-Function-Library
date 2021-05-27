@@ -1,4 +1,4 @@
-# Python_Basics
+# Python Function Library
 <h2>The Python Basics Library is an agrigation of numerous Python functions that are ready to be integrated into any Python project. The functions range from basic to advanced and can be run in both a terminal and in accompanying HTML</h2>
 
 
