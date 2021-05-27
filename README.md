@@ -7,7 +7,7 @@
     <ul>
       <li><a href="#zigzag">Zig Zag</a></li>
       <li><a href="#callstack">Call Stack Funciton</a></li>
-      <li><a href="#collatz">Collatz</ul>
+      <li><a href="#collatz">Collatz</li>
       <li><a href="#guessnum">Guess the Number</a></li>
       <li><a href="#m8">The Magic 8 Ball</a></li>
       <li><a href="#rps">Rock Paper Scissors</a></li>
