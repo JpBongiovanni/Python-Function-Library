@@ -11,8 +11,7 @@
       <li><a href="#guessnum">Guess the Number</a></li>
       <li><a href="#m8">The Magic 8 Ball</a></li>
       <li><a href="#rps">Rock Paper Scissors</a></li>
-    <ul>
-  </div>
+    <ul></div>
   
 
 <hr>
