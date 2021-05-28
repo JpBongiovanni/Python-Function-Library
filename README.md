@@ -17,7 +17,7 @@
   
 
 <hr>
-<div id="zigzag">Zig Zag - <p>The Zig Zag function makes use of a while True infinite loop and the time.sleep() function to slow down the rendering of our program in the terminal. Every tenth of a second the program prints again on a different line but with a ' ' before or after the text to give the illusion the text is "zigzagging" down the page like a snake.<p> </div>
+Zig Zag - <p id="zigzag">The Zig Zag function makes use of a while True infinite loop and the time.sleep() function to slow down the rendering of our program in the terminal. Every tenth of a second the program prints again on a different line but with a ' ' before or after the text to give the illusion the text is "zigzagging" down the page like a snake.<p>
       
 ![zigzag](https://user-images.githubusercontent.com/61191192/119916066-c3769a80-bf9e-11eb-9167-bc9bd0f1a5c8.gif)
 
