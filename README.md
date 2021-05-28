@@ -1,3 +1,4 @@
+
 # Python Function Library
 <h2>The Python Basics Library is an agrigation of numerous Python functions that are ready to be integrated into any Python project. The functions range from basic to advanced and can be run in both a terminal and in accompanying HTML</h2>
 
@@ -17,7 +18,8 @@
 
 <hr>
 <div id="zigzag">Zig Zag - <p>The Zig Zag function makes use of a while True infinite loop and the time.sleep() function to slow down the rendering of our program in the terminal. Every tenth of a second the program prints again on a different line but with a ' ' before or after the text to give the illusion the text is "zigzagging" down the page like a snake.<p> </div>
-<img src="https://github.com/JpBongiovanni/Python_Basics/blob/main/movies/zigzag.gif" width="530" height="350" />
+      
+![zigzag](https://user-images.githubusercontent.com/61191192/119916066-c3769a80-bf9e-11eb-9167-bc9bd0f1a5c8.gif)
 
 <div id="callstack">Call Stack Function - The Call Stack Function is how Python remembers where a function first started and then returns there after the function is complete. It is usually running behind the scenes but it is demonstrated here. </div>
 <img src="https://github.com/JpBongiovanni/Python_Basics/blob/main/movies/abcdCallStack.gif" width="530" height="350" />
