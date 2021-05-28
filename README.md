@@ -3,7 +3,7 @@
 
 
 <h3>contents:</h3>
-  <div>
+  <h4>
     <ul>
       <li><a href="#zigzag">Zig Zag</a></li>
       <li><a href="#callstack">Call Stack Funciton</a></li>
@@ -11,7 +11,8 @@
       <li><a href="#guessnum">Guess the Number</a></li>
       <li><a href="#m8">The Magic 8 Ball</a></li>
       <li><a href="#rps">Rock Paper Scissors</a></li>
-    <ul></div>
+    <ul>
+      </h4>
   
 
 <hr>
