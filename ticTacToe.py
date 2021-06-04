@@ -7,6 +7,10 @@ def printBoard(board):
     print('-+-+-')
     print(board['low-L'] + '|' + board['low-M'] + '|' + board['low-R'])
 
+def winner():
+    if theBoard['top-L'] == 'X' and theBoard['top-M'] == 'X' and theBoard['top-R'] == 'X':
+        print("Player X wins!")
+
 turn = 'X'
 for i in range(9):
     printBoard(theBoard)
@@ -17,4 +21,5 @@ for i in range(9):
         turn = 'O'
     else:
         turn = 'X'
+    winner()
 
