@@ -1,6 +1,7 @@
 allGuests = {'Jason': {'lasagna': 4, 'bread sticks': 12},
             'Rocco': {'ham sandwiches': 3, 'meatballs': 4},
-            'Dyanne': {'dishes': 3, 'cups': 1}
+            'Dyanne': {'dishes': 3, 'cups': 1},
+            'Tim': {'drinks': 4, 'sides': 2}
             }
 
 def totalBrought(guests, item):
@@ -15,4 +16,4 @@ print(' - Bread Sticks   ' + str(totalBrought(allGuests, 'bread sticks')))
 print(' - Ham Sandwiches ' + str(totalBrought(allGuests, 'ham sandwiches'))) 
 print(' - Meatballs      ' + str(totalBrought(allGuests, 'meatballs'))) 
 print(' - Dishes         ' + str(totalBrought(allGuests, 'dishes'))) 
-print(' - Cups           ' + str(totalBrought(allGuests, 'cups'))) 
+print(' - Cups           ' + str(totalBrought(allGuests, 'cups')))
