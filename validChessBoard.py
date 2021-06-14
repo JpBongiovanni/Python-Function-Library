@@ -22,3 +22,5 @@ def isValidChessBoard(board):
         if v in all_pieces:
             piece_cnt.setdefault(v, 0)
             piece_cnt[v] += 1
+
+    #need to complete
