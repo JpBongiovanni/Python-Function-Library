@@ -23,4 +23,29 @@ def isValidChessBoard(board):
             piece_cnt.setdefault(v, 0)
             piece_cnt[v] += 1
 
-    #need to complete
+    #Check if there are a valid number of pieces
+    for piece in all_pieces:
+        cnt = piece_cnt.get(piece, 0)
+        lo, hi = valid_counts[piece[1:]]
+        if not lov <= cnt <= hi: # Count needs to be between lo and hi
+            if lo != hi:
+                print(f"There should between {lo} and {hi} {piece} but there are {cnt}")
+            else:
+                print(f"There should be {lo} {piece} but there are {cnt}")
+            return False
+    
+    # Check if locations are valid
+    for location in board.keys():
+        row = int(location[:1])
+        column = location[1:]
+        if not ((1 <= row <= 8) and ('a' <= column <= "h")):
+            print(f"Invalid to have {board[location]} at position {location}")
+
+    # Check if all pieces have valid names
+    for loc, piece in board.items():
+        if piece:
+            if not piece in all_pieces:
+                print(f"{piece} is not a valid chess piece at position {loc}")
+                return False
+
+    return True
