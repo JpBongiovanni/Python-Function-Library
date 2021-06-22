@@ -1,4 +1,4 @@
-stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow':12}
+inv = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow':12}
 
 def displayInventory(inventory):
     print("Inventory:")
@@ -9,4 +9,13 @@ def displayInventory(inventory):
 
     print("Total number of items:" + str(item_total))
 
-displayInventory(stuff)
+displayInventory(inv)
+
+def addToInventory(inventory, addedItems):
+    #Code goes here
+
+dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
+
+inv = addToInventory(inv, draggonLoot)
+
+displayInventory(inv)
