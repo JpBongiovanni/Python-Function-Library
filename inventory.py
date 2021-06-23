@@ -13,9 +13,11 @@ displayInventory(inv)
 
 def addToInventory(inventory, addedItems):
     #Code goes here
+    for l in addedItems():
+        print(addedItems[l])
 
 dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
 
-inv = addToInventory(inv, draggonLoot)
+inv = addToInventory(inv, dragonLoot)
 
 displayInventory(inv)
