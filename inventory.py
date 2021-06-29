@@ -1,8 +1,6 @@
 from collections import Counter
 
-inv = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow':12}
-
-print(inv)
+stuff = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow':12}
 
 def displayInventory(inventory):
     print("Inventory:")
@@ -13,23 +11,21 @@ def displayInventory(inventory):
 
     print("Total number of items:" + str(item_total))
 
-displayInventory(inv)
+displayInventory(stuff)
 
 def addToInventory(inventory, addedItems):
     #Code goes here
     for l in addedItems:
-        if l is not inventory:
-            inventory[l]=1
-        if l is inventory:
-            # print(l.count)
-            inventory[l] = inventory[l]+1
+        inventory.setdefault(l, 0)
+        inventory[l] += 1
+    return inventory
 
 
 dragonLoot = ['gold coin', 'dagger', 'gold coin', 'gold coin', 'ruby']
 
-addToInventory(inv, dragonLoot)
+inv = addToInventory(stuff, dragonLoot)
 
-print(inv)
+displayInventory(inv)
 # inv = addToInventory(inv, dragonLoot)
 
 # displayInventory(inv)
