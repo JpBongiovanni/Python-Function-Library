@@ -14,15 +14,6 @@
       <li><a href="#rps">Rock Paper Scissors</a></li>
     <ul>
       
-<center>
-  
-  | <a href="#zigzag">Zig Zag</a> | <a href="#m8">The Magic 8 Ball</a> | TEXT | TEXT | TEXT | TEXT |
-  | :--: |:----:|:----:| :--: |:----:|:----:|
-  | <a href="#callstack">Call Stack Funciton</a> | <a href="#rps">Rock Paper Scissors</a> | TEXT | TEXT | TEXT | TEXT |
-  | <a href="#collatz">Collatz</a> | TEXT | TEXT | TEXT | TEXT | TEXT |
-  | <a href="#guessnum">Guess the Number</a> | TEXT | TEXT | TEXT | TEXT | TEXT |
-  
-</center>
       
   
 
