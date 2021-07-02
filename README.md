@@ -50,14 +50,15 @@ Zig Zag - <p id="zigzag">The Zig Zag function makes use of a while True infinite
 
 <div id="coinFlip">The Coin Flip - </div>
 
-<img src="{{site.baseurl | prepend: site.url}}movies/#.gif" alt="Coin Flip gif" />
+<img src="{{site.baseurl | prepend: site.url}}movies/coinFlip.gif" alt="Coin Flip gif" />
       
 <div id="conway">Conway - </div>
 
-<img src="{{site.baseurl | prepend: site.url}}movies/#.gif" alt="Conway gif" />
+<img src="{{site.baseurl | prepend: site.url}}movies/conway.gif" alt="Conway gif" />
 
 <div id="ticTacToe">Tic Tac Toe - </div>
 
-<img src="{{site.baseurl | prepend: site.url}}movies/#.gif" alt="Tic Tac Toe gif" />
+<img src="{{site.baseurl | prepend: site.url}}movies/ttt1.gif" alt="Tic Tac Toe gif" />
+<img src="{{site.baseurl | prepend: site.url}}movies/ttt2.gif" alt="Tic Tac Toe gif" />
 
 
