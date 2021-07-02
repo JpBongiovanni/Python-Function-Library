@@ -12,6 +12,9 @@
       <li><a href="#guessnum">Guess the Number</a></li>
       <li><a href="#m8">The Magic 8 Ball</a></li>
       <li><a href="#rps">Rock Paper Scissors</a></li>
+      <li><a href="#coinFlip">The Coin Flip</a></li>
+      <li><a href="#conway">Conway</a></li>
+      <li><a href="#ticTacToe">Tic Tac Toe</a></li>
     <ul>
       
       
@@ -44,5 +47,17 @@ Zig Zag - <p id="zigzag">The Zig Zag function makes use of a while True infinite
 <div id="rps">Rock Paper Scissors - the program first calls the random and sys modules to use random.ranint() and sys.exit(). Three variables are then established to keep track of our wins, loses, and draws. There are two while loops at play, the first loop runs the whole game, while the second takes inputs from the player. The inner loop then breaks and the random.randint() function chooses an integer assigned to rock, paper, or scissors. The user input and the random integer are then compared and the winner is declared.</div>
 
 <img src="{{site.baseurl | prepend: site.url}}movies/rock_paper_scissors.gif" alt="rps" />
+
+<div id="coinFlip">The Coin Flip - </div>
+
+<img src="{{site.baseurl | prepend: site.url}}movies/#.gif" alt="Coin Flip gif" />
+      
+<div id="conway">Conway - </div>
+
+<img src="{{site.baseurl | prepend: site.url}}movies/#.gif" alt="Conway gif" />
+
+<div id="ticTacToe">Tic Tac Toe - </div>
+
+<img src="{{site.baseurl | prepend: site.url}}movies/#.gif" alt="Tic Tac Toe gif" />
 
 
