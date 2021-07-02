@@ -46,7 +46,7 @@ while True:
             if currentCells[leftCoord][aboveCoord] == '#':
                 numNeighbors += 1 # Top-left neighbor is alive.
             if currentCells[x][aboveCoord] == '#':
-                numNeighbors += 1 # Top neighbor is alive.
+                numNeighbors += 1 # Top neighbor is alive.cl
             if currentCells[rightCoord][aboveCoord] == '#':
                 numNeighbors += 1 # Top-right neighbor is alive.
             if currentCells[leftCoord][y] == '#':
