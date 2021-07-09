@@ -1,6 +1,6 @@
-def eggs(somePar):
-    somePar.append('Hello')
+def meat(somePar):
+    somePar.append('Hi')
 
 spam = [1,2,3]
-eggs(spam)
+meat(spam)
 print(spam)
