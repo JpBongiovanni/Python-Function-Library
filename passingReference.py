@@ -1,6 +1,7 @@
-def loaf(somePar):
-    somePar.append('Hi')
+def meat(somepar):
+    somepar.append('Hi')
+    return somepar
 
 loaf = [1,2,3]
-meat(loaf)
-print(loaf)
+
+print(meat(loaf))
