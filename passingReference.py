@@ -1,6 +1,6 @@
-def meat(somePar):
+def loaf(somePar):
     somePar.append('Hi')
 
-spam = [1,2,3]
-meat(spam)
-print(spam)
+loaf = [1,2,3]
+meat(loaf)
+print(loaf)
